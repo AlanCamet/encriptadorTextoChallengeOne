@@ -1,3 +1,49 @@
-body{
-    background-color: yellowgreen;
+#logo {
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#encriptadorContainer{
+    width: 50%;
+}
+#salidaEncriptado{
+    width: 50%;
+}
+#zonaEncriptado{
+    border: 0;
+    color: blue;
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 70%;
+    height: 80%;
+}
+#encriptar{
+    margin-left: 120px ;
+    margin-right: 20px;
+    border: 0;
+    background-color: blue;
+    color: white;
+}
+button{
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+}
+#desencriptar{
+    border: 1px solid blue;
+    color: blue;
+}
+
+#salidaEncriptado img{
+    width: 250px;
+
+
 }
