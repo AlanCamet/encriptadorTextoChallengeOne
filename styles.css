@@ -1,10 +1,11 @@
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e4f0ff;
 }
     #logo {
     width: 80px;
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 main{
     display: flex;
@@ -16,14 +17,20 @@ main{
     margin-right: 50px;
 }
 #salidaEncriptado{
-    width: 200px;
-    margin-top: 60px;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    padding-top: 30px;
+    margin-top: 30px;
     margin-left: 10px
     ;
 }
 #zonaEncriptado{
+    background-color: #e4f0ff ;
     color: #063971;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-left: 120px;
     margin-top: 50px;
     width: 80%;
@@ -42,6 +49,8 @@ button{
     width: 300px;
     height: 50px;
     border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 form{
     display: flex;
