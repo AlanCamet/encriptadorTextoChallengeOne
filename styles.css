@@ -5,23 +5,32 @@ body{
     #logo {
     width: 80px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 #encriptadorContainer{
-    width: 600px;
+    width: 500px;
     height: 500px;
-    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 #salidaEncriptado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     border-radius: 20px;
     width: 300px;
-    height: 450px;
-    padding-top: 30px;
+    height: 485px;
+    padding-top: 10px;
     margin-top: 30px;
     margin-left: 10px
     ;
@@ -31,10 +40,10 @@ main{
     color: #063971;
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 120px;
-    margin-top: 50px;
-    width: 80%;
-    height: 80%;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
     border: none;
     outline: none;
 }
@@ -44,43 +53,63 @@ main{
     border: 0;
     background-color: #063971;
     color: white;
-}
-button{
-    width: 300px;
+    width: 240px;
     height: 50px;
     border-radius: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
 }
+
 form{
     display: flex;
+    justify-content: start;
 }
 #desencriptar{
     border: 1px solid #063971;
     color: #063971;
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 
 #salidaEncriptado img{
-    width: 230px;
-    margin-left: 30px;
+    width: 200px;
 
 }
 #salidaEncriptado h2{
     width: 200px;
     text-align: center;
-    margin-left: 50px;
 }
 #salidaEncriptado p {
     width: 200px;
     text-align: center;
-    margin-left: 50px;
 
 }
 
 footer{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+}
+#salidaEncriptado textarea{
+    width: 250px;
+    height: 350px;
+    background-color: white ;
+    color: black;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+}
+#salidaEncriptado button{
+    border: 1px solid #063971;
+    color: #063971;
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }

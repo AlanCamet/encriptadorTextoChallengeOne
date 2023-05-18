@@ -71,6 +71,7 @@ function encriptar(){
         }
     };
 };
+
 function desencriptar(){
     salida = "";
     encriptado = [];
@@ -95,7 +96,6 @@ function desencriptar(){
             i = i+3
         }else{
             salida = concat
-
         }
     };
 };
