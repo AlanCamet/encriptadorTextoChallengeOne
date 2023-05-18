@@ -4,6 +4,8 @@ const encriptarButton = document.querySelector("#encriptar");
 const salidaEncriptado = document.querySelector("#salidaEncriptado");
 let encriptado = [];
 let salida;
+let input = document.createElement("input");
+let button = document.createElement("button")
 
 mensaje.textContent = "Ingrese texto aqui"
 mensaje.addEventListener("click", ()=>{
@@ -14,10 +16,17 @@ encriptarButton.addEventListener("click", (event) => {
     event.preventDefault();
     clean();
     encriptar();
-    let p = document.createElement("p");
-    p.textContent = salida;
-    salidaEncriptado.appendChild(p);
+    input.value = salida;
+    button.textContent = "Copy"
+    salidaEncriptado.appendChild(input);
+    salidaEncriptado.appendChild(button);
 });
+
+button.addEventListener("click", ()=>{
+    input.select();
+    input.setSelectionRange(0,99999);
+    document.execCommand("copy")
+})
 
 function clean(){
     salidaEncriptado.innerHTML = "";
