@@ -110,7 +110,7 @@ footer{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 950px){
 
 #encriptadorContainer{
     width: 750px;
@@ -169,4 +169,48 @@ footer{
     font-size: 18px;
     margin-bottom: 20px;
 }
+}
+@media only screen and (max-width: 600px){
+
+#encriptadorContainer{
+    width: 400px;
+    height: 500px;
+}
+#zonaEncriptado {
+    width: 300px;
+    height: 300px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    margin: 10px;
+}
+
+#salidaEncriptado{
+    margin-top: 60px;
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#salidaEncriptado h2{
+    width: 200px;
+    margin-bottom: 15px;
+}
+#salidaEncriptado p{
+    width: 200px;
+}
+#salidaEncriptado textarea{
+    width: 300px;
+    height: 200px;
+
+}
+
 }
