@@ -13,8 +13,8 @@ main{
     justify-content: space-around;
 }
 #encriptadorContainer{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 550px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -41,14 +41,12 @@ main{
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     width: 400px;
-    height: 400px;
+    height: 350px;
     margin-top: 40px;
-    margin-left: 40px;
     border: none;
     outline: none;
 }
 #encriptar{
-    margin-left: 120px ;
     margin-right: 20px;
     border: 0;
     background-color: #063971;
@@ -62,7 +60,6 @@ main{
 
 form{
     display: flex;
-    justify-content: start;
 }
 #desencriptar{
     border: 1px solid #063971;
@@ -112,4 +109,64 @@ footer{
     border-radius: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
+}
+@media only screen and (max-width: 768px){
+
+#encriptadorContainer{
+    width: 750px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#zonaEncriptado{
+    width: 600px;
+    height: 450px;
+}
+#salidaEncriptado{
+     display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#salidaEncriptado img{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#salidaEncriptado h2{
+    width: 400px;
+    height: 50px;
+    margin: 0;
+    
+}
+#salidaEncriptado p{
+    width: 400px;
+    height: 50px;
+    margin: 0;
+}
+#salidaEncriptado textarea{
+    width: 500px;
+    height: 150px;
+    background-color: white ;
+    color: black;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+
+}
+#salidaEncriptado button{
+    border: 1px solid #063971;
+    color: #063971;
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 }
