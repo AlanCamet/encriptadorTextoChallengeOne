@@ -1,6 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #e4f0ff;
+    background-color: #bccde1;
 }
     #logo {
     width: 80px;
@@ -36,7 +36,7 @@ main{
     ;
 }
 #zonaEncriptado{
-    background-color: #e4f0ff ;
+    background-color: #bccde1 ;
     color: #063971;
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
